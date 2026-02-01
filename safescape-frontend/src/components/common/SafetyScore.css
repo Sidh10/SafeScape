@@ -1,0 +1,11 @@
+.safety-score {
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.score-display {
+  font-size: 2rem;
+  font-weight: bold;
+}

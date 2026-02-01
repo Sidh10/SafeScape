@@ -1,0 +1,102 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+/* ================================
+   GLOBAL BASE (NEUTRAL RESET)
+   ================================ */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Let App.css control theme */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ================================
+   GLOBAL ELEMENT RESET
+   ================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ================================
+   LINKS (SAFE DEFAULT)
+   ================================ */
+
+a {
+  font-weight: 500;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   HEADINGS (LET APP CONTROL SIZE)
+   ================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* ================================
+   BUTTON RESET (IMPORTANT)
+   ================================ */
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* ================================
+   FORM ELEMENTS
+   ================================ */
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+/* ================================
+   REMOVE VITE DEMO STYLES ❌
+   ================================ */
+
+/*
+REMOVED ON PURPOSE:
+- color-scheme
+- background-color
+- body display:flex
+- place-items:center
+- demo button styling
+- prefers-color-scheme overrides
+
+App.css is the single source of truth
+*/

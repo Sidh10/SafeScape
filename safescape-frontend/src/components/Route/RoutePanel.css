@@ -1,0 +1,74 @@
+.route-panel {
+  background: #f9fafb;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+.route-panel h3 {
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+}
+
+.route-description {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.route-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.route-input-group label {
+  font-size: 0.75rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.route-input-group input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 0.85rem;
+}
+
+.route-panel button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  background: #16a34a;
+  color: white;
+  font-weight: 600;
+}
+
+.route-panel button:hover {
+  background: #15803d;
+}
+
+.route-error {
+  color: #dc2626;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+/* =========================
+   ROUTE SUMMARY BOX
+========================= */
+.route-summary {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 14px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.route-summary p {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}

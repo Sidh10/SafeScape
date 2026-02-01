@@ -1,0 +1,55 @@
+.crime-filter {
+  background: white;
+  padding: 14px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-header h4 {
+  font-size: 1rem;
+  color: #1f2937;
+}
+
+.clear-btn {
+  font-size: 0.8rem;
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* CHIP BASE */
+.chip {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.chip:hover {
+  background: #e5e7eb;
+}
+
+/* ACTIVE STATE */
+.chip.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
