@@ -71,7 +71,7 @@ function RoutePanel({ onRouteFound }) {
 
       {routeInfo && (
         <div className="route-summary">
-          <SafetyScore score={100 - routeInfo.safety_score * 10} />
+          <SafetyScore score={routeInfo.safety_score} />
           <p>📏 Distance: {routeInfo.distance_km} km</p>
           <p>⏱ Duration: {routeInfo.duration_minutes} min</p>
         </div>
